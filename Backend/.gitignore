@@ -1,0 +1,34 @@
+# --- Python Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- uv Specific Files ---
+# uv locks dependencies in uv.lock, but we want to ignore its temporary cache
+.uv/
+
+# --- Django Specifics ---
+db.sqlite3
+db.sqlite3-journal
+*.log
+local_settings.py
+
+# --- Python Compiled Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environment Variables (Secrets) ---
+.env
+.env.[a-zA-Z]*
+!.env.example
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
