@@ -1,0 +1,12 @@
+li a {
+    color: green;
+}
+
+body {
+    background: white url("images/background2.jpg") no-repeat center center;
+    background-size: cover;
+    
+    /* Optional: Ensures the body always takes up at least the full height of the screen */
+    min-height: 100vh; 
+    margin: 0;
+}
